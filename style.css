@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.btn {
+  background-color: #006838;
+  color: white;
+  border: 2px solid #006838;
+  border-radius: 40px;
+  padding: 8px 14px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  border: 2px solid #39B54A;
+  color: #39B54A;
+  background-color: transparent;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  max-width: 1320px;
+  margin: auto;
+  text-align: center;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  padding: 20px;
+  color: #006838;
+  font-weight: 800;
+}
+
+ul li a:hover {
+  color: #39B54A;
+}
+
+header {
+  position: relative;
+}
+
+header .bg-image {
+  position: absolute;
+  top: 0;
+  left: -4px;
+}
+
+header .bg-image2 {
+  position: absolute;
+  top: 250px;
+  right: 0px;
+}
+
+header .logo {
+  padding: 50px;
+}
+
+header ul li {
+  display: inline-block;
+}
+
+header .content {
+  padding: 80px 0;
+}
+
+header h3 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 62px;
+  margin-bottom: 10px;
+  color: #006838;
+}
+
+header h1 span {
+  color: #39B54A;
+}
+
+header p {
+  margin-bottom: 100px;
+}
+
+header h5 {
+  font-size: 18px;
+  margin: 20px 0 10px;
+}
+
+.products h2 {
+  font-size: 42px;
+  margin-bottom: 40px;
+  color: #006838;
+}
+
+.products p {
+  margin-bottom: 20px;
+}
+
+.products ul {
+  margin-bottom: 30px;
+}
+
+.products ul li {
+  display: inline-block;
+}
+
+.products .card {
+  background-color: #cecece;
+  padding: 20px;
+  margin: 10px;
+}
+
+.products .card h3 {
+  font-size: 22px;
+  color: #006838;
+  margin-top: 10px;
+}
+
+.products .card p {
+  margin-top: 10px;
+}
+
+.advertisement {
+  position: relative;
+  background-color: #3d3d3d;
+  color: white;
+  padding: 110px;
+  margin-top: 20px;
+}
+
+.advertisement .ad-image {
+  position: absolute;
+  right: 0;
+  top: -25px;
+}
+
+.advertisement .ad-text {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.advertisement .ad-text h2 {
+  font-size: 42px;
+  margin: 20px 0;
+  color: #39B54A;
+}
+
+.advertisement .ad-text h5 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.testimonial {
+  position: relative;
+}
+
+.testimonial .t-image {
+  position: absolute;
+}
+
+.testimonial .t-text {
+  padding: 120px 100px;
+}
+
+.testimonial .t-text .image1 {
+  margin-bottom: 40px;
+}
+
+.testimonial .t-text q {
+  font-size: 22px;
+  line-height: 40px;
+}
+
+.testimonial .t-text .image2 img {
+  border-radius: 50%;
+  border: 4px solid #39B54A;
+  margin-top: 40px;
+}
+
+.testimonial .t-text h3 {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.testimonial .t-text span {
+  font-weight: 400;
+  padding: 20px;
+}
+
+footer {
+  background-color: #3d3d3d;
+  color: white;
+  padding: 40px;
+}
+
+footer h4 {
+  margin-bottom: 10px;
+}
+
+footer .bottom-footer {
+  text-align: center;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=style.css.map */
